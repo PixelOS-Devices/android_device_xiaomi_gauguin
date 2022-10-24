@@ -7,12 +7,23 @@
 import common
 
 
+def FullOTA_Assertions(info):
+    OTA_Assertions(info, info.input_zip)
+    return
+
+
 def FullOTA_InstallEnd(info):
     OTA_InstallEnd(info)
     return
 
 
+def IncrementalOTA_Assertions(info):
+    OTA_Assertions(info, info.input_zip)
+    return
+
+
 def IncrementalOTA_InstallEnd(info):
+    info.input_zip = info.target_zip
     OTA_InstallEnd(info)
     return
 
