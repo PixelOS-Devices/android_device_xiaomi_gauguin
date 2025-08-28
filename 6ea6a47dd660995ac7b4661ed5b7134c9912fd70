@@ -16,6 +16,24 @@
       "message": "Requires inheriting debugfs.config as well",
       "revId": "6ea6a47dd660995ac7b4661ed5b7134c9912fd70",
       "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    },
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "4db7ce58_1552d8ec",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2025-08-28T17:01:14Z",
+      "side": 1,
+      "message": "base config has it merged",
+      "parentUuid": "c7ed3f2b_785c0177",
+      "revId": "6ea6a47dd660995ac7b4661ed5b7134c9912fd70",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
     }
   ]
 }
