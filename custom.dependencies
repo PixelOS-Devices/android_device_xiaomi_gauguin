@@ -1,0 +1,12 @@
+[
+  {
+    "remote": "github",
+    "repository": "PixelOS-AOSP/android_kernel_xiaomi_gauguin",
+    "target_path": "kernel/xiaomi/gauguin"
+  },
+  {
+    "remote": "gitlab",
+    "repository": "NoPrincessHere/proprietary_vendor_xiaomi_gauguin",
+    "target_path": "vendor/xiaomi/gauguin"
+  }
+]
