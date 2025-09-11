@@ -6,7 +6,7 @@
   },
   {
     "remote": "github",
-    "repository": "PixelOS-AOSP/android_kernel_xiaomi_gauguin",
+    "repository": "PixelOS-Devices/android_kernel_xiaomi_gauguin",
     "target_path": "kernel/xiaomi/gauguin"
   },
   {
