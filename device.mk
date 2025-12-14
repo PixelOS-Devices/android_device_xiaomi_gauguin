@@ -25,6 +25,7 @@ PRODUCT_PACKAGES += \
     GauguinApertureOverlay \
     GauguinCarrierConfigOverlay \
     GauguinFrameworksOverlay \
+    GauguinLauncherOverlay \
     GauguinSettingsOverlay \
     GauguinSystemUIOverlay \
     GauguinTelephonyOverlay \
