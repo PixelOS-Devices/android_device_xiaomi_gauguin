@@ -4,5 +4,6 @@
 //
 runtime_resource_overlay {
     name: "GauguinCarrierConfigOverlay",
+    aaptflags: ["--keep-raw-values"],
     vendor: true,
 }
