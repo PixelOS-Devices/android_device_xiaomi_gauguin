@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "121f7700_25d1cd9d",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-06-08T04:24:28Z",
+      "side": 1,
+      "message": "Fixes chipmunk sound on voice calls.",
+      "revId": "f3ef4cf8a89a1e7d3dda9ec80860d641e77aaf06",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
