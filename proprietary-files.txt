@@ -63,7 +63,6 @@ vendor/lib/rfsa/adsp/misound_res_headphone.bin
 vendor/lib/rfsa/adsp/misound_res_spk.bin
 
 # Audio
-vendor/lib/hw/vendor.qti.hardware.audiohalext@1.0-impl.so
 vendor/lib/libadiertac.so
 vendor/lib/libadm.so
 vendor/lib/libaudcal.so
@@ -75,7 +74,6 @@ vendor/lib/libhdmipassthru.so
 vendor/lib/libqtigef.so
 vendor/lib/libresampler.so
 vendor/lib/libssrec.so
-vendor/lib/vendor.qti.hardware.audiohalext@1.0.so
 vendor/lib/vndk/libxlog.so
 
 # Audio firmware
