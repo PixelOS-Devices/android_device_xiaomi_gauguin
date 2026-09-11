@@ -105,6 +105,11 @@ PRODUCT_PACKAGES += \
     libtinycompress \
     libvolumelistener
 
+# Elliptic ultrasound proximity: source-built shim translating
+# sensors.elliptic proximity events into audio HAL ultrasound-sensor
+PRODUCT_PACKAGES += \
+    libnotifyaudiohal
+
 PRODUCT_PACKAGES += \
     sku_gauguin_audio_symlink
 
