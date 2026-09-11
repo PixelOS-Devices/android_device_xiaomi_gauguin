@@ -87,6 +87,7 @@ PRODUCT_PACKAGES += \
     audio.usb.default
 
 PRODUCT_PACKAGES += \
+    audio.primary.lito \
     sound_trigger.primary.lito
 
 PRODUCT_PACKAGES += \
