@@ -1,0 +1,21 @@
+{
+  "comments": [
+    {
+      "unresolved": false,
+      "key": {
+        "uuid": "a70b780a_9a06f532",
+        "filename": "/PATCHSET_LEVEL",
+        "patchSetId": 1
+      },
+      "lineNbr": 0,
+      "author": {
+        "id": 1000003
+      },
+      "writtenOn": "2026-09-15T07:02:39Z",
+      "side": 1,
+      "message": "Apparently still required, else audio is broken.",
+      "revId": "8c905aa5f7c08c7ae66ee2f06d70a63585eb8b87",
+      "serverId": "58543e18-2196-4633-8043-7787712585ad"
+    }
+  ]
+}
