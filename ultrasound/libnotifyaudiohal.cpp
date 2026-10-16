@@ -29,12 +29,30 @@ static void ultrasound_enable(int enable) {
 }
 
 extern "C" int elliptic_notify_audio_hal(char* param) {
-    ALOGD("elliptic_notify_audio_hal: %s", param);
-    if (!strcmp(param, "ultrasound-proximity=1")) {
-        ultrasound_enable(1);
-    } else if (!strcmp(param, "ultrasound-proximity=0")) {
-        ultrasound_enable(0);
+    int enable;
+
+    ALOGD("elliptic_notify_audio_hal : %s ", param);
+
+    if (!strcmp(param, "ultrasound-proximity=1") ||
+        !strcmp(param, "ultrasound-calibration=1") ||
+        !strcmp(param, "ultrasound-quickmute=1") ||
+        !strcmp(param, "ultrasound-quicksnap=1") ||
+        !strcmp(param, "ultrasound-quickzoom=1") ||
+        !strcmp(param, "ultrasound_enable=1")) {
+        enable = 1;
+    } else if (!strcmp(param, "ultrasound-proximity=0") ||
+               !strcmp(param, "ultrasound-calibration=0") ||
+               !strcmp(param, "ultrasound-quickmute=0") ||
+               !strcmp(param, "ultrasound-quicksnap=0") ||
+               !strcmp(param, "ultrasound-quickzoom=0") ||
+               !strcmp(param, "ultrasound_enable=0")) {
+        enable = 0;
+    } else {
+        return 0;
     }
+
+    ALOGD("elliptic_notify_audio_hal, enable %d", enable);
+    ultrasound_enable(enable);
 
     return 0;
 }
