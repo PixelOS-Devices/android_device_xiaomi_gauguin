@@ -11,6 +11,10 @@
 # Elliptic
 /dev/elliptic[0-9]                                                      u:object_r:ultrasound_device:s0
 
+# Face unlock
+/data/vendor/face(/.*)?                                                 u:object_r:vendor_face_data_file:s0
+/vendor/etc/faceunlock(/.*)?                                            u:object_r:vendor_face_resources_file:s0
+
 # Fingerprint - devices
 /dev/goodix_fp                                                          u:object_r:fingerprint_device:s0
 
@@ -21,6 +25,7 @@
 /data/vendor/fpdump(/.*)?                                               u:object_r:fingerprint_vendor_data_file:s0
 
 # HALs
+/vendor/bin/hw/android\.hardware\.biometrics\.face-service\.xiaomi        u:object_r:hal_face_default_exec:s0
 /vendor/bin/hw/android\.hardware\.biometrics\.fingerprint-service\.xiaomi  u:object_r:hal_fingerprint_default_exec:s0
 
 # IIO
