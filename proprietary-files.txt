@@ -573,6 +573,10 @@ vendor/lib64/hw/vendor.qti.esepowermanager@1.1-impl.so|c6b853c5a008123490afeb103
 vendor/lib64/vendor.qti.esepowermanager@1.0.so|1d9663e2ad911aa75da4b07a2b17dd023d4c796e
 vendor/lib64/vendor.qti.esepowermanager@1.1.so|3e71c2927fe56732b081b6476df2efbd58d27178
 
+# Face unlock - from gauguin_GL
+system/app/MiuiBiometric/MiuiBiometric.apk:vendor/etc/faceunlock/resources.zip|f2358fd4b9b5500e5a4099d65dcdd4564b912b50
+system/lib64/libstfaceunlockocl.so:vendor/lib64/libstfaceunlockocl.so|f902589d0cca7605f45a67bfff06f95097682805
+
 # Feature Enabler Client
 vendor/bin/feature_enabler_client
 vendor/etc/init/feature_enabler_client.rc

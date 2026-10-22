@@ -30,6 +30,9 @@
     <!-- Whether to show Smooth Display feature in Settings Options -->
     <bool name="config_show_smooth_display">true</bool>
 
+    <!-- Whether Settings should open a separate camera preview during face enrollment -->
+    <bool name="config_face_enroll_hal_owns_camera">true</bool>
+
     <!-- Max network scan search time in seconds -->
     <integer name="config_network_scan_helper_max_search_time_sec">254</integer>
 </resources>
